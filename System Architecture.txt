@@ -1,0 +1,31 @@
+project_root/
+├── assets/
+│   ├── css/               (custom styles, responsive)
+│   ├── js/                (voice, keyboard, service worker)
+│   └── images/
+├── includes/
+│   ├── config.php         (database, API keys, base URL)
+│   ├── auth.php           (session, RBAC, login)
+│   ├── functions.php      (helper functions)
+│   ├── db.php             (PDO wrapper)
+│   └── ai_helper.php      (OpenAI, Tesseract, TTS/STT)
+├── modules/
+│   ├── admin/
+│   │   └── dashboard.php
+│   ├── lecturer/
+│   │   └── dashboard.php
+│   └── student/
+│       └── dashboard.php
+├── uploads/               (course materials, submissions)
+├── vendor/                (composer dependencies)
+├── .env                   (environment variables)
+├── index.php              (login with disability profile)
+├── dashboard.php          (role-based redirection)
+├── course.php             (view/upload/converter)
+├── assignment.php         (submit with voice/video)
+├── ai_tutor.php           (chat with AI tutor)
+├── profile.php            (update disability preferences)
+├── logout.php
+├── offline.html           (offline fallback)
+├── sw.js                  (service worker for offline)
+└── README.md
